@@ -11,4 +11,11 @@ def read_reg(reg_no):
     ret_val = BitArray(bin(val))
     return ret_val
 
-print(read_reg(10))
+
+a = read_reg(10)
+print(a)
+print(a.bin)
+print(a[0:2])
+print(a[2:4])
+print(a[4:6])
+print(a[6:8])
