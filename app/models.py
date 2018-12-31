@@ -1,3 +1,5 @@
+from .helpers import read_reg
+
 class Setting:
 
     from app.helpers import read_reg
