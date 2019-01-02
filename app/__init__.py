@@ -1,4 +1,4 @@
-from .helpers import read_reg
+from app.helpers import read_reg
 
 a = read_reg(10)
 print(a)

@@ -27,5 +27,5 @@ def write_reg(reg_no, data):
 def change_reg(reg_no, data, pos_start):
     bit_array = BitStream(bin(read_reg(reg_no)))
     bit_array.pos = pos_start
-    bit_array.overwrite = ('0b0101')
+    bit_array.overwrite('0b0101')
     return bit_array
