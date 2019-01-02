@@ -1,4 +1,4 @@
-from app.helpers import read_reg
+from helpers import read_reg
 
 ret_code, a = read_reg(10)
 if ret_code == 0:
